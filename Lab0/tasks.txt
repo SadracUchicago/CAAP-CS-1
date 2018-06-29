@@ -1,3 +1,21 @@
 Task 6
 ------
 I looked up how 'to edit a commit message' and came across the help forum https://help.github.com/articles/changing-a-commit-message/ .  I used the command git commit --amend like it said.
+
+Task 7
+------
+I ran the following code:
+jesus@compsci:~/CAAP-CS$ git clone https://github.com/junegunn/fzf FZF
+Cloning into 'FZF'...
+remote: Counting objects: 7535, done.
+remote: Total 7535 (delta 0), reused 0 (delta 0), pack-reused 7535
+Receiving objects: 100% (7535/7535), 2.55 MiB | 1.41 MiB/s, done.
+Resolving deltas: 100% (4709/4709), done.
+
+Then I used 'git log' and looked for the comment.  I got tired of looking through the terminal output so I looked online how to take a command output and put it into a text file.  I found my answer on: 
+https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file
+
+I ran the following command:
+jesus@compsci:~/CAAP-CS/FZF$ git log > /home/jesus/CAAP-CS/Lab0/FZF_log.txt
+
+Then I opened the text file and use control-f to quickly find the comment.  The commit SHA is c7e86ad4f1061b0cad9f64a6c9ad26f386bc1168 and the commit comment is ' Add --no-mouse option to replace FZF_MOUSE_ENABLED'

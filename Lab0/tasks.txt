@@ -1,2 +1,3 @@
 Task 6
 ------
+I looked up how 'to edit a commit message' and came across the help forum https://help.github.com/articles/changing-a-commit-message/ .  I used the command git commit --amend like it said.

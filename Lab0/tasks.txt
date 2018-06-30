@@ -19,3 +19,36 @@ I ran the following command:
 jesus@compsci:~/CAAP-CS/FZF$ git log > /home/jesus/CAAP-CS/Lab0/FZF_log.txt
 
 Then I opened the text file and use control-f to quickly find the comment.  The commit SHA is c7e86ad4f1061b0cad9f64a6c9ad26f386bc1168 and the commit comment is ' Add --no-mouse option to replace FZF_MOUSE_ENABLED'
+
+Task 8
+------
+I looked up 'how to use git to check changes made to a file.  I found my answer on:
+https://stackoverflow.com/questions/4456532/how-can-i-see-what-has-changed-in-a-file-before-committing-to-git
+
+I used the command 'git diff [filename]' as the website suggested and it worked.  The command output the lines on the text file and had a '+' in front of the additions.
+
+Task 9
+------
+I looked up 'how to remove files from a git repository' and I found my answer on:
+https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo
+
+I used the command:
+jesus@compsci:~/CAAP-CS/Lab0$ git rm mistake.txt
+rm 'Lab0/mistake.txt'
+
+Task 10
+-----
+I looked up 'how to negate git commits' and found a hint on:
+https://stackoverflow.com/questions/642264/undo-change-in-git-not-rewriting-history
+
+I looked up the documentation of 'git revert' on:
+https://git-scm.com/docs/git-revert
+
+I used the following command:
+jesus@compsci:~/CAAP-CS/Lab0$ git revert 833474804eba390433d05f3584365fcb99ed5762 5cc44e146417e04865fc64ecd4044e4524096ae8
+[master d24bc54] Revert "This is also a mistake"
+ 1 file changed, 1 deletion(-)
+[master 7ead288] Revert "This is a mistake"
+ 1 file changed, 1 deletion(-)
+
+

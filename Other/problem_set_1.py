@@ -11,6 +11,7 @@ temp_convert()
 print('\nProblem #2')
 def parall(): #This won't be the most efficient method to solve this problem....
 	
+	#There are multiple border cases this won't account for
 	###Inputs###
 	sideA = input('Please input the lenght of side A:\n>> ') #I realize now I could have condeced using simultaneous assignment
 	sideB = input('Please input the lenght of side B:\n>> ')
@@ -31,14 +32,14 @@ def parall(): #This won't be the most efficient method to solve this problem....
 	elif (angleAB != 90) and (angleBC != 90) and (angleCD != 90) and (angleDA != 90) and ((angleAB + angleBC + angleCD + angleDA) == 360):
 		if (sideA == sideB) and (sideB == sideC) and (sideC == sideD) and (sideD == sideA):
 			print('The given parameters indicate the figure is a rhombus.')
-		else:
+		elif (angleAB == angleCD) or (angleBC == angleDA):
 			print('The given parameters indicate the figure is a parallelogram.')
 	###Trapezoid###
 	elif (angleAB + angleBC + angleCD + angleDA) == 360:
 		print('The given parameters indicate the figure is either a trapezoid or kite.')
 	###Error###
 	else:
-		print('ERROR: Figure is impossible') #I think there might be some multiple border cases this won't account for
+		print('ERROR: Figure is impossible')
 parall()
 
 ###Problem 3###

@@ -4,8 +4,9 @@ print('Problem #1')
 def temp_convert():
 	base = input('Please input the base:\n>> ')
 	expnt = input('Please input the exponent:\n>> ')
+	# HERE THE ISSUE IS THAT INPUT GETS STRINGS INSTEAD OF INTS. TRY TO PUT THE INPUT INSIDE int() TO CAST IT TO AN INT.
 	print(str(base) + ' to the power of ' + str(expnt) + ' is ' + str(base ** expnt))
-temp_convert()
+#temp_convert()
 
 ###Problem 2###
 print('\nProblem #2')
@@ -13,6 +14,9 @@ def parall(): #This won't be the most efficient method to solve this problem....
 	
 	#There are multiple border cases this won't account for
 	###Inputs###
+
+	#AGAIN, USE int() TO TAKE IN NUMBER VALUES
+
 	sideA = input('Please input the lenght of side A:\n>> ') #I realize now I could have condeced using simultaneous assignment
 	sideB = input('Please input the lenght of side B:\n>> ')
 	sideC = input('Please input the length of side c:\n>> ')
@@ -23,6 +27,10 @@ def parall(): #This won't be the most efficient method to solve this problem....
 	angleDA = input('Please input the degrees of angle DA:\n>> ')
 	
 	###Square/Rectangle###
+
+	# IF STATEMENTS TAKE ONLY ONE 'CONDITION', SO IF YOU HAVE DIFFERENT CONDITIONS
+	# YOU HAVE TO MAKE SURE THEY ARE ENCAPSULATED INTO ONE WITH PARENTHESIS
+
 	if (angleAB == 90) and (angleBC == 90) and (angleCD == 90) and (angleDA == 90) and ((angleAB + angleBC + angleCD + angleDA) == 360):
 		if (sideA == sideB) and (sideB == sideC) and (sideC == sideD) and (sideD == sideA):
 			print('The given parameters indicate the figure is a square.')
@@ -40,14 +48,19 @@ def parall(): #This won't be the most efficient method to solve this problem....
 	###Error###
 	else:
 		print('ERROR: Figure is impossible')
-parall()
+#parall()
 
 ###Problem 3###
 print('\nProblem #3')
-#Used these websites as reference:
-#https://docs.scipy.org/doc/numpy-1.10.0/reference/generated/numpy.arccos.html
-#https://docs.scipy.org/doc/numpy-1.10.4/reference/generated/numpy.rad2deg.html
+# Used these websites as reference:
+# https://docs.scipy.org/doc/numpy-1.10.0/reference/generated/numpy.arccos.html
+# https://docs.scipy.org/doc/numpy-1.10.4/reference/generated/numpy.rad2deg.html
 def trgle():	
+
+	# NUMPY IS A PYTHON LIBRARY WHICH YOU NEED TO INSTALL BEFORE YOU CAN USE IT
+	# PUT THIS IN YOUR TERMINAL: pip install numpy
+	# THIS SHOULD INSTALL THE PACKAGE AND YOU SHOULD BE ABLE TO USE IT THEN.
+
 	import numpy as np
 	
 	###Inputs###

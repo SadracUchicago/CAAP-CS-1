@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Last edit: 7/11/2018 10:02 PM */
+/* Last edit: 7/11/2018 11:23 PM */
 /* Last validated error free: 2/18/2018 9:27 PM */
 
 /* Cite code */
@@ -9,11 +9,10 @@
  * Sadrac and I helped eachother as well*/
 
 /* Color Scheme
- * Light Red: #bc3137
- * Dark Red: #7a1d21
  * Light Grey: #f4f2f7
- * Grey: #84898e
  * Dark Grey: #483f3f */
+
+/* Heading and navigation bar look */
 
 body{
 	background-color: #f4f2f7;
@@ -22,10 +21,11 @@ body{
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #483f3f;
-	font-size: 45px;
-	font-weight: 100;
+	font-size: 60px;
+	font-weight: 500;
 	border-bottom-style: solid;
 	border-color: #483f3f;
+	padding: 0px 25px 5px 25px;
 }
 #nav_bar{
 	margin: 0;
@@ -48,13 +48,40 @@ body{
 	padding: 5px 25px 5px 25px;
 	border-color: #483f3f;
 	border-style: solid;
-	color: #483f3f;	
+	color: #483f3f;
+}
+#nav_bar li #active{
+	text-decoration: none;
+	padding: 5px 25px 5px 25px;
+	background-color: #483f3f;
+	color: #f4f2f7;
 }
 #nav_bar li a:hover{
 	text-decoration: none;
 	padding: 5px 25px 5px 25px;
-	border-color: #84898e;
-	border-style: solid;
-	color: #84898e;
+	background-color: #483f3f;
+	color: #f4f2f7;
 }
 
+/* Home look */
+#home{
+	margin-top: -20px;
+	margin-left: 128px;
+	margin-right: 128px;
+}
+#home article h1{
+	font-size: 60px;
+	padding: 25px 25px 0px 25px;
+	background-color: #483f3f;
+	}
+#home article p{
+	font-size: 20px;
+	padding: 25px 25px 25px 25px;
+	background-color: black;
+}
+#home article{
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #f4f2f7;
+	background-color: #483f3f;
+}

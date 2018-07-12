@@ -1,6 +1,60 @@
 @charset "UTF-8";
 
-/* Last edit: 2/18/2018 8:00 PM */
+/* Last edit: 7/11/2018 10:02 PM */
 /* Last validated error free: 2/18/2018 9:27 PM */
 
 /* Cite code */
+/* https://www.w3schools.com/cssref/css_websafe_fonts.asp & https://www.w3schools.com/css/css_font.asp for fonts 
+ * https://www.w3schools.com/Css/css_link.asp
+ * Sadrac and I helped eachother as well*/
+
+/* Color Scheme
+ * Light Red: #bc3137
+ * Dark Red: #7a1d21
+ * Light Grey: #f4f2f7
+ * Grey: #84898e
+ * Dark Grey: #483f3f */
+
+body{
+	background-color: #f4f2f7;
+}
+#company_name{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #483f3f;
+	font-size: 45px;
+	font-weight: 100;
+	border-bottom-style: solid;
+	border-color: #483f3f;
+}
+#nav_bar{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #483f3f;
+	font-size: 15px;
+	font-weight: bold;
+	list-style-type: none;
+}
+#nav_bar li{
+	padding-left: 100px;
+	padding-right: 100px;
+	display: inline;
+	list-style-position: center;
+}
+#nav_bar li a{
+	text-decoration: none;
+	padding: 5px 25px 5px 25px;
+	border-color: #483f3f;
+	border-style: solid;
+	color: #483f3f;	
+}
+#nav_bar li a:hover{
+	text-decoration: none;
+	padding: 5px 25px 5px 25px;
+	border-color: #84898e;
+	border-style: solid;
+	color: #84898e;
+}
+

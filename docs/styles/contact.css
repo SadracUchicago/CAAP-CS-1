@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/* Last edit: 7/13/2018 09:20 PM */
+/* Last validated error free: 2/18/2018 9:27 PM */
+
+/* Cite code */
+/* https://www.w3schools.com/cssref/css_websafe_fonts.asp & https://www.w3schools.com/css/css_font.asp for fonts 
+ * https://www.w3schools.com/Css/css_link.asp
+ * https://www.w3schools.com/css/css3_images.asp
+ * Sadrac and I helped eachother as well*/
+
+/* Color Scheme
+ * Grey 1: #f4f2f7
+ * Grey 2: #dcd9dd
+ * Grey 3: #c5c1c5
+ * Grey 4: #aba6a9
+ * Grey 5: #918b8d
+ * Grey 6: #777071
+ * Grey 7: #605859
+ * Grey 8: #483f3f */
+
+/* Heading and navigation bar look */
+
+body{
+	background-color: #f4f2f7;
+}
+#company_name{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #483f3f;
+	font-size: 60px;
+	font-weight: 500;
+	border-bottom-style: solid;
+	border-color: #483f3f;
+	padding: 0px 25px 5px 25px;
+}
+#nav_bar{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #483f3f;
+	font-size: 15px;
+	font-weight: bold;
+	list-style-type: none;
+}
+#nav_bar li{
+	padding-left: 100px;
+	padding-right: 100px;
+	display: inline;
+	list-style-position: center;
+}
+#nav_bar li a{
+	text-decoration: none;
+	padding: 5px 25px 5px 25px;
+	border-color: #483f3f;
+	border-style: solid;
+	color: #483f3f;
+}
+#nav_bar li #active{
+	text-decoration: none;
+	padding: 5px 25px 5px 25px;
+	background-color: #483f3f;
+	color: #f4f2f7;
+}
+#nav_bar li a:hover{
+	text-decoration: none;
+	padding: 5px 25px 5px 25px;
+	background-color: #483f3f;
+	color: #f4f2f7;
+}
+
+/* Bio Look */
+#email{
+	margin-top: 40px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+#email article h1{
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 25px 25px 25px 25px;
+	background-color: #483f3f;
+	}
+#email article ul{
+	margin-top: -30px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #483f3f;
+	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+	line-height: 200%;
+	padding: 50px 25px 50px 25px;
+	border-style: solid;
+	border-color: #483f3f;
+	list-style-type: none;
+}
+#email article{
+	text-align: left;
+	color: #f4f2f7;
+}
+
+#social{
+	margin-top: -30px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+#social article h1{
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 25px 25px 25px 25px;
+	background-color: #483f3f;
+	}
+#social article ul{
+	margin-top: -31px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #483f3f;
+	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+	line-height: 200%;
+	padding: 50px 25px 50px 25px;
+	border-style: solid;
+	border-color: #483f3f;
+	list-style-type: none;
+}
+#social article{
+	text-align: left;
+	color: #f4f2f7;
+}
+
+#phone{
+	margin-top: -30px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+#phone article h1{
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 25px 25px 25px 25px;
+	background-color: #483f3f;
+	}
+#phone article ul{
+	margin-top: -30px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #483f3f;
+	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+	line-height: 200%;
+	padding: 50px 25px 50px 25px;
+	border-style: solid;
+	border-color: #483f3f;
+	list-style-type: none;
+}
+#phone article{
+	text-align: left;
+	color: #f4f2f7;
+}
+
+/* Footer */
+#footer{
+	margin-top: 60px;
+}
+#footer li{
+	display: inline;
+	margin-left: 120px;
+	padding: 25px 25px 25px 25px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #483f3f;
+}

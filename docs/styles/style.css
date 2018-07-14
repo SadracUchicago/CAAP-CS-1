@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+/* Last edit: 7/12/2018 05:28 PM */
+/* Last validated error free: 2/18/2018 9:27 PM */
+
+/* Cite code */
+/* https://www.w3schools.com/cssref/css_websafe_fonts.asp & https://www.w3schools.com/css/css_font.asp for fonts 
+ * https://www.w3schools.com/Css/css_link.asp
+ * Sadrac and I helped eachother as well*/
+
+/* Color Scheme
+ * Grey 1: #f4f2f7
+ * Grey 2: #dcd9dd
+ * Grey 3: #c5c1c5
+ * Grey 4: #aba6a9
+ * Grey 5: #918b8d
+ * Grey 6: #777071
+ * Grey 7: #605859
+ * Grey 8: #483f3f */
+
+/* Heading and navigation bar look */
+
+body{
+	background-color: #f4f2f7;
+}
+#company_name{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #483f3f;
+	font-size: 60px;
+	font-weight: 500;
+	border-bottom-style: solid;
+	border-color: #483f3f;
+	padding: 0px 25px 5px 25px;
+}
+#nav_bar{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #483f3f;
+	font-size: 15px;
+	font-weight: bold;
+	list-style-type: none;
+}
+#nav_bar li{
+	padding-left: 100px;
+	padding-right: 100px;
+	display: inline;
+	list-style-position: center;
+}
+#nav_bar li a{
+	text-decoration: none;
+	padding: 5px 25px 5px 25px;
+	border-color: #483f3f;
+	border-style: solid;
+	color: #483f3f;
+}
+#nav_bar li #active{
+	text-decoration: none;
+	padding: 5px 25px 5px 25px;
+	background-color: #483f3f;
+	color: #f4f2f7;
+}
+#nav_bar li a:hover{
+	text-decoration: none;
+	padding: 5px 25px 5px 25px;
+	background-color: #483f3f;
+	color: #f4f2f7;
+}
+
+/* Home look */
+#home{
+	margin-top: -20px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+#home article h1{
+	font-size: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 25px 25px 25px 25px;
+	background-color: #483f3f;
+	}
+#home article p{
+	margin-top: -60px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #483f3f;
+	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+	line-height: 120%;
+	padding: 50px 25px 50px 25px;
+	border-style: solid;
+	border-color: #483f3f;
+}
+#home article{
+	text-align: left;
+	color: #f4f2f7;
+}
+
+#home2{
+	margin-top: -62px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+#home2 article h1{
+	font-size: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 25px 25px 25px 25px;
+	background-color: #483f3f;
+	}
+#home2 article p{
+	margin-top: -60px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #483f3f;
+	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+	line-height: 120%;
+	padding: 50px 25px 50px 25px;
+	border-style: solid;
+	border-color: #483f3f;
+}
+#home2 article{
+	text-align: left;
+	color: #f4f2f7;
+}
+
+#home3{
+	margin-top: -62px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+#home3 article h1{
+	font-size: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 25px 25px 25px 25px;
+	background-color: #483f3f;
+	}
+#home3 article p{
+	margin-top: -60px;
+	font-size: 20px;
+	font-weight: 100;
+	color: #483f3f;
+	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+	line-height: 120%;
+	padding: 50px 25px 50px 25px;
+	border-style: solid;
+	border-color: #483f3f;
+}
+#home3 article{
+	text-align: left;
+	color: #f4f2f7;
+}
+
+/* Footer */
+#footer{
+	margin-top: 60px;
+}
+#footer li{
+	display: inline;
+	margin-left: 120px;
+	padding: 25px 25px 25px 25px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #483f3f;
+}

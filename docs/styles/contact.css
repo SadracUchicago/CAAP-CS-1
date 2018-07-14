@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-/* Last edit: 7/13/2018 09:20 PM */
-/* Last validated error free: 2/18/2018 9:27 PM */
+/* Last edit: 7/13/2018 11:18 PM */
+/* Last validated error free: 7/13/2018 11:18 PM */
 
 /* Cite code */
 /* https://www.w3schools.com/cssref/css_websafe_fonts.asp & https://www.w3schools.com/css/css_font.asp for fonts 
@@ -48,7 +48,7 @@ body{
 	padding-left: 100px;
 	padding-right: 100px;
 	display: inline;
-	list-style-position: center;
+	/* list-style-position: center; */
 }
 #nav_bar li a{
 	text-decoration: none;

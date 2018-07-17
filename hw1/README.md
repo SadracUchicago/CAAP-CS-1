@@ -34,7 +34,7 @@ This menu is used to select the program you would like to run.  To execute a pro
 
 NOTE: Whenever the program requires an input, the following line will be displayed:
 ```
->>
+>>[INPUT]
 ```
 
 ### Hello World
@@ -89,15 +89,15 @@ NOTE: This program will run until the user tells it to quit.
 The program will prompt you with the following output:
 ```
 How many numbers are in the series:
->> [Value]
+>> [VALUE]
 
 Please enter the first term of the series:
->>[Value]
+>>[VALUE]
 Please enter the following term of the series:
->>[Value]
+>>[VALUE]
 ...
 Please enter the last term of the series:
->>[Value]
+>>[VALUE]
 ```
 After the user has finished entering the inputs, the program will return the sum of the terms of the series.
 
@@ -117,14 +117,14 @@ Please input a dollar amount:
 ```
 The program will use a greedy algorithm to determine the smallest number of bills and coins needed to represent that amount.  The program will present the following output:
 ```
-Hundreds: [Value]
-Fifties: [Value]
-Twenties: [Value]
-Tens: [Value]
-Fives: [Value]
-Ones: [Value]
-Quarters: [Value]
-Dimes: [Value]
-Nickels: [Value]
-Pennies: [Value]
+Hundreds: [VALUE]
+Fifties: [VALUE]
+Twenties: [VALUE]
+Tens: [VALUE]
+Fives: [VALUE]
+Ones: [VALUE]
+Quarters: [VALUE]
+Dimes: [VALUE]
+Nickels: [VALUE]
+Pennies: [VALUE]
 ```
